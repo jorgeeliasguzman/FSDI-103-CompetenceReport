@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+    <title>Dodging Doges - Bleh Game</title>
+</head>
+<body>
+    <header>
+        <h1>Doge Dodge Video Game</h1>
+        <div id="status"></div>
+    </header>
+    <main class="container">
+            <div id="hero" class="character-container">
+                <img class="character-img" id="good-doge" src="img/doge.gif" alt="Doge Image">
+                <p id="hero-points" class="points">Points: 100</p><button id="hero-attack-btn" onclick="heroAttack();">Attack</button>
+            </div>
+
+            <div class="battle-container">
+                <img class="character-img" src="img/battleground-neutral.png" alt="Inside Ship">
+                <p id="vs">VS</p>
+            </div>
+        
+            <div id="enemy" class="character-container">
+                <img class="character-img"id="bad-doge"src="img/doge.gif" alt="Bad Doge Image">
+                <p id="enemy-points" class="points">Points: 100</p><button id="enemy-attack-btn" onclick="enemyAttack();">Attack</button>
+            </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
